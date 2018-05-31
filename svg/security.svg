@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="98px" height="98px" viewBox="0 0 98 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>DCE50821-726D-4D87-8DA9-60D512B2D7E8</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <circle id="path-1" cx="35" cy="35" r="35"></circle>
+        <filter x="-40.7%" y="-27.9%" width="181.4%" height="181.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="7" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.129411765   0 0 0 0 0.145098039   0 0 0 0 0.160784314  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.129411765   0 0 0 0 0.145098039   0 0 0 0 0.160784314  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PortalGuard-Homepage-Desktop-HD-version-2" transform="translate(-827.000000, -3565.000000)">
+            <g id="Icon---Security" transform="translate(841.000000, 3572.000000)">
+                <g id="Icon-Background">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#17C671" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path d="M44.3823529,36.0882353 L44.3823529,24.0294118 L35.9411765,24.0294118 L35.9411765,45.4526654 C37.4359756,44.6613012 38.773738,43.8008625 39.9545037,42.8713235 C42.9064179,40.5600375 44.3823529,38.2990307 44.3823529,36.0882353 Z M48,21.6176471 L48,36.0882353 C48,37.1685103 47.7896008,38.2393482 47.368796,39.3007812 C46.9479912,40.3622143 46.4267035,41.3043004 45.8049173,42.127068 C45.1831311,42.9498356 44.4420233,43.7506089 43.5815717,44.5294118 C42.7211201,45.3082147 41.9266274,45.9551138 41.1980699,46.4701287 C40.4695123,46.9851435 39.7095628,47.471888 38.9181985,47.9303768 C38.1268343,48.3888657 37.5647229,48.6997541 37.2318474,48.8630515 C36.898972,49.0263489 36.6320476,49.1519603 36.4310662,49.2398897 C36.2803301,49.3152577 36.1170352,49.3529412 35.9411765,49.3529412 C35.7653177,49.3529412 35.6020228,49.3152577 35.4512868,49.2398897 C35.2503054,49.1519603 34.983381,49.0263489 34.6505055,48.8630515 C34.3176301,48.6997541 33.7555187,48.3888657 32.9641544,47.9303768 C32.1727902,47.471888 31.4128407,46.9851435 30.6842831,46.4701287 C29.9557255,45.9551138 29.1612329,45.3082147 28.3007812,44.5294118 C27.4403296,43.7506089 26.6992219,42.9498356 26.0774357,42.127068 C25.4556495,41.3043004 24.9343618,40.3622143 24.513557,39.3007812 C24.0927522,38.2393482 23.8823529,37.1685103 23.8823529,36.0882353 L23.8823529,21.6176471 C23.8823529,21.2910523 24.0016839,21.0084264 24.2403493,20.769761 C24.4790147,20.5310956 24.7616405,20.4117647 25.0882353,20.4117647 L46.7941176,20.4117647 C47.1207124,20.4117647 47.4033383,20.5310956 47.6420037,20.769761 C47.8806691,21.0084264 48,21.2910523 48,21.6176471 Z" id="shield" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

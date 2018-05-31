@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="98px" height="98px" viewBox="0 0 98 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>B8F79B72-4EA9-45CA-8A24-DCC9593E07A5</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <circle id="path-1" cx="35" cy="35" r="35"></circle>
+        <filter x="-40.7%" y="-27.9%" width="181.4%" height="181.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="7" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.129411765   0 0 0 0 0.145098039   0 0 0 0 0.160784314  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.129411765   0 0 0 0 0.145098039   0 0 0 0 0.160784314  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M15.3472222,18.9583333 L23.4722286,18.9583333 C27.9595419,18.9583333 31.5972281,22.5960195 31.5972281,27.0833328 C31.5972281,27.083333 31.5972281,27.0833331 31.5972281,27.0833333 L31.5972311,34.0293829 C31.597231,34.7699973 31.1879589,35.4499803 30.5335124,35.7966927 C26.7297271,37.8118605 23.0217979,38.8194444 19.4097249,38.8194444 C15.7976552,38.8194444 12.0897297,37.8118624 8.28594816,35.7966984 L8.28594421,35.7967059 C7.63149563,35.4499927 7.22222222,34.7700078 7.22222222,34.0293911 L7.22222222,27.0833333 C7.22222222,22.5960197 10.8599086,18.9583333 15.3472222,18.9583333 Z" id="path-3"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PortalGuard-Homepage-Desktop-HD-version-2" transform="translate(-557.000000, -2102.000000)">
+            <g id="Group-9-Copy" transform="translate(571.000000, 2109.000000)">
+                <g id="Icon-Background">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#17C671" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Group-8" transform="translate(14.636364, 15.909091)">
+                    <g id="Group-8-Copy" fill="#FFFFFF">
+                        <path d="M8.125,13.5416667 L16.2500064,13.5416667 C20.7373197,13.5416667 24.3750058,17.1793528 24.3750058,21.6666661 C24.3750058,21.6666663 24.3750058,21.6666665 24.3750058,21.6666667 L24.3750089,28.6127162 C24.3750088,29.3533307 23.9657367,30.0333136 23.3112902,30.3800261 C19.5075049,32.3951939 15.7995757,33.4027778 12.1875027,33.4027778 C8.57543303,33.4027778 4.86750745,32.3951958 1.06372594,30.3800318 L1.06372199,30.3800392 C0.409273409,30.033326 9.78877797e-16,29.3533411 8.8817842e-16,28.6127245 L0,21.6666667 C-5.49537423e-16,17.1793531 3.63768641,13.5416667 8.125,13.5416667 Z" id="Rectangle-8"></path>
+                        <circle id="Oval-2-Copy" stroke="#17C671" stroke-width="2.8" cx="12.6388889" cy="8.125" r="8.125"></circle>
+                    </g>
+                    <g id="Group-8-Copy-2" transform="translate(16.250000, 0.000000)" fill="#FFFFFF">
+                        <path d="M8.125,13.5416667 L16.2500064,13.5416667 C20.7373197,13.5416667 24.3750058,17.1793528 24.3750058,21.6666661 C24.3750058,21.6666663 24.3750058,21.6666665 24.3750058,21.6666667 L24.3750089,28.6127162 C24.3750088,29.3533307 23.9657367,30.0333136 23.3112902,30.3800261 C19.5075049,32.3951939 15.7995757,33.4027778 12.1875027,33.4027778 C8.57543303,33.4027778 4.86750745,32.3951958 1.06372594,30.3800318 L1.06372199,30.3800392 C0.409273409,30.033326 9.78877797e-16,29.3533411 8.8817842e-16,28.6127245 L0,21.6666667 C-5.49537423e-16,17.1793531 3.63768641,13.5416667 8.125,13.5416667 Z" id="Rectangle-8"></path>
+                        <circle id="Oval-2-Copy" stroke="#17C671" stroke-width="2.8" cx="12.6388889" cy="8.125" r="8.125"></circle>
+                    </g>
+                    <g id="Rectangle-8">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <path stroke="#17C671" stroke-width="2.8" d="M15.3472222,20.3583333 C11.6331073,20.3583333 8.62222222,23.3692184 8.62222222,27.0833333 L8.62222222,34.0293911 C8.62222222,34.2515762 8.74500241,34.4555675 8.94134591,34.5595833 C12.5515745,36.472207 16.0374306,37.4194444 19.4097249,37.4194444 C22.7820224,37.4194444 26.267882,36.4722052 29.8781142,34.5595779 C30.0744489,34.4555637 30.1972311,34.251568 30.1972311,34.0293835 L30.1972281,27.0833328 C30.1972281,23.3692182 27.1863432,20.3583333 23.4722286,20.3583333 L15.3472222,20.3583333 Z"></path>
+                    </g>
+                    <circle id="Oval-2-Copy" stroke="#17C671" stroke-width="2.8" fill="#FFFFFF" cx="19.8611111" cy="13.5416667" r="8.125"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

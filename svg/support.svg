@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="98px" height="98px" viewBox="0 0 98 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>CC96CCBB-84E1-43E4-B90A-23F6E8BF3386</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <circle id="path-1" cx="35" cy="35" r="35"></circle>
+        <filter x="-40.7%" y="-27.9%" width="181.4%" height="181.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="7" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.129411765   0 0 0 0 0.145098039   0 0 0 0 0.160784314  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.129411765   0 0 0 0 0.145098039   0 0 0 0 0.160784314  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PortalGuard-Homepage-Desktop-HD-version-2" transform="translate(-1009.000000, -2102.000000)">
+            <g id="Group-9-Copy-3" transform="translate(1023.000000, 2109.000000)">
+                <g id="Icon-Background">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#17C671" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="support" transform="translate(17.000000, 21.000000)">
+                    <path d="M33.5469223,0 L8.90422716,0 C7.42566546,0 6.24281609,1.22538035 6.24281609,2.68258941 L6.24281609,18.1157581 C6.24281609,19.6060856 7.45852238,20.7983475 8.90422716,20.7983475 L25.8912583,20.7983475 L29.7355188,24.7063173 C29.8998034,24.8719092 30.0969449,24.9712644 30.3269434,24.9712644 C30.7869404,24.9712644 31.1812235,24.6069621 31.1812235,24.1101863 L31.1812235,20.7983475 L33.5469223,20.7983475 C35.025484,20.7983475 36.2083333,19.5729672 36.2083333,18.1157581 L36.2083333,2.68258941 C36.2083333,1.19226196 34.992627,0 33.5469223,0 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <text id="24h" font-family="DINPro-Bold, DIN Pro" font-size="13" font-weight="bold" fill="#17C671">
+                        <tspan x="14.441" y="16.6666667">24</tspan>
+                        <tspan x="17.7755" y="32.6666667">h</tspan>
+                    </text>
+                    <path d="M4.50311043,18.926912 L4.50311043,13.7341954 L1.7684986,13.7341954 C0.801379788,13.7341954 0.00100559546,14.5180017 0.00100559546,15.465101 L0.00100559546,25.4586311 C-0.0323433292,26.4710475 0.768030864,27.2548538 1.7684986,27.2548538 L3.33589807,27.2548538 L3.33589807,29.4103211 C3.33589807,29.7042485 3.60268946,29.9655172 3.90282979,29.9655172 C4.06957441,29.9655172 4.20297011,29.9002001 4.30301688,29.8022243 L6.87088408,27.2875124 L18.2095185,27.2875124 C19.1766373,27.2875124 19.9770115,26.5037061 19.9770115,25.5566069 L19.9770115,23.0745536 L8.73842387,23.0745536 C6.40399914,23.0745536 4.50311043,21.2130137 4.50311043,18.926912 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="98px" height="98px" viewBox="0 0 98 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>BC0EB61D-48E4-4E58-B017-C22EB68E4B04</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <circle id="path-1" cx="35" cy="35" r="35"></circle>
+        <filter x="-40.7%" y="-27.9%" width="181.4%" height="181.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="7" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.129411765   0 0 0 0 0.145098039   0 0 0 0 0.160784314  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.129411765   0 0 0 0 0.145098039   0 0 0 0 0.160784314  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PortalGuard-Homepage-Desktop-HD-version-2" transform="translate(-340.000000, -2102.000000)">
+            <g id="Group-9" transform="translate(354.000000, 2109.000000)">
+                <g id="Icon-Background">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#17C671" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Group-8" transform="translate(14.000000, 14.000000)">
+                    <circle id="Oval-2" fill="#FFFFFF" cx="21.5" cy="4.5" r="4.5"></circle>
+                    <circle id="Oval-2-Copy" fill="#FFFFFF" cx="21.5" cy="21.5" r="4.5"></circle>
+                    <circle id="Oval-2-Copy-4" fill="#FFFFFF" cx="38.5" cy="21.5" r="4.5"></circle>
+                    <circle id="Oval-2-Copy-3" fill="#FFFFFF" cx="4.5" cy="21.5" r="4.5"></circle>
+                    <circle id="Oval-2-Copy-2" fill="#FFFFFF" cx="21.5" cy="38.5" r="4.5"></circle>
+                    <path d="M21.5,3.5 L21.5,39.5138862" id="Line" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="square"></path>
+                    <path d="M4.5,21.5 L39.5,21.5" id="Line-2" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="square"></path>
+                    <path d="M4.5,22.5 L21.5,39.5" id="Line-3" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="square"></path>
+                    <path d="M4.5,3.5 L21.5,20.5" id="Line-3-Copy-2" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="square" transform="translate(13.000000, 12.000000) scale(1, -1) translate(-13.000000, -12.000000) "></path>
+                    <path d="M21.5,22.5 L38.5,39.5" id="Line-3-Copy" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="square" transform="translate(30.000000, 31.000000) scale(-1, 1) translate(-30.000000, -31.000000) "></path>
+                    <path d="M21.5,3.5 L38.5,20.5" id="Line-3-Copy-3" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="square" transform="translate(30.000000, 12.000000) scale(-1, -1) translate(-30.000000, -12.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

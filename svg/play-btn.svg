@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="61px" height="61px" viewBox="0 0 61 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>AF5510B2-56C3-4508-837A-AD713F746767</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <circle id="path-1" cx="30.4307116" cy="30.4307116" r="30.4307116"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PortalGuard-Homepage-Desktop-HD-version-2" transform="translate(-1010.000000, -4401.000000)">
+            <g id="Group-Copy" transform="translate(735.000000, 4231.000000)">
+                <g id="Play-button" transform="translate(275.000000, 170.000000)">
+                    <g id="Oval-5">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <circle stroke="#17C671" stroke-width="3" cx="30.4307116" cy="30.4307116" r="28.9307116"></circle>
+                    </g>
+                    <path d="M25.8035562,19.9349709 L41.7863644,28.9253005 C42.7490801,29.4668281 43.0905206,30.6862583 42.548993,31.648974 C42.3694154,31.968223 42.1056134,32.2320251 41.7863644,32.4116026 L25.8035562,41.4019322 C24.8408404,41.9434598 23.6214102,41.6020194 23.0798826,40.6393036 C22.9114908,40.3399403 22.8230337,40.0022549 22.8230337,39.6587812 L22.8230337,21.6781219 C22.8230337,20.5735524 23.7184642,19.6781219 24.8230337,19.6781219 C25.1665074,19.6781219 25.5041929,19.766579 25.8035562,19.9349709 Z" id="Rectangle-2" fill="#17C671"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

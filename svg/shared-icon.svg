@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="98px" height="98px" viewBox="0 0 98 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>A2A7D5D2-BBB5-45F4-8782-75A52A66D6B9</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <circle id="path-1" cx="35" cy="35" r="35"></circle>
+        <filter x="-40.7%" y="-27.9%" width="181.4%" height="181.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="7" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.129411765   0 0 0 0 0.145098039   0 0 0 0 0.160784314  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.129411765   0 0 0 0 0.145098039   0 0 0 0 0.160784314  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PortalGuard-Homepage-Desktop-HD-version-2" transform="translate(-827.000000, -3742.000000)">
+            <g id="Icon---Shared-Folder" transform="translate(841.000000, 3749.000000)">
+                <g id="Icon-Background">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#17C671" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path d="M51.8823529,30.6176471 C51.8823529,30.9442418 51.763022,31.2268677 51.5243566,31.4655331 L41.8772978,41.1125919 C41.6386324,41.3512573 41.3560065,41.4705882 41.0294118,41.4705882 C40.702817,41.4705882 40.4201911,41.3512573 40.1815257,41.1125919 C39.9428603,40.8739265 39.8235294,40.5913007 39.8235294,40.2647059 L39.8235294,35.4411765 L35.6029412,35.4411765 C34.3719301,35.4411765 33.2696893,35.4788599 32.2961857,35.5542279 C31.322682,35.629596 30.3554736,35.7646283 29.3945312,35.959329 C28.4335889,36.1540298 27.5982725,36.4209542 26.888557,36.7601103 C26.1788414,37.0992664 25.5162408,37.5357663 24.9007353,38.0696232 C24.2852298,38.60348 23.7827838,39.237818 23.3933824,39.9726562 C23.0039809,40.7074945 22.699373,41.577354 22.4795496,42.582261 C22.2597262,43.587168 22.1498162,44.723952 22.1498162,45.9926471 C22.1498162,46.6835206 22.181219,47.4560313 22.2440257,48.3102022 C22.2440257,48.3855702 22.2597272,48.5331637 22.2911305,48.7529871 C22.3225339,48.9728105 22.3382353,49.1392458 22.3382353,49.2522978 C22.3382353,49.4407179 22.2848504,49.5977322 22.178079,49.7233456 C22.0713077,49.848959 21.9237142,49.9117647 21.7352941,49.9117647 C21.5343127,49.9117647 21.3584566,49.8049949 21.2077206,49.5914522 C21.1197912,49.4784002 21.0381438,49.3402275 20.9627757,49.1769301 C20.8874077,49.0136328 20.80262,48.8252155 20.7084099,48.6116728 C20.6141999,48.3981301 20.5482539,48.2473963 20.5105699,48.1594669 C18.91528,44.5794858 18.1176471,41.7469467 18.1176471,39.6617647 C18.1176471,37.1620586 18.4505175,35.0706273 19.1162684,33.3874081 C21.151205,28.3251891 26.6467077,25.7941176 35.6029412,25.7941176 L39.8235294,25.7941176 L39.8235294,20.9705882 C39.8235294,20.6439935 39.9428603,20.3613676 40.1815257,20.1227022 C40.4201911,19.8840368 40.702817,19.7647059 41.0294118,19.7647059 C41.3560065,19.7647059 41.6386324,19.8840368 41.8772978,20.1227022 L51.5243566,29.769761 C51.763022,30.0084264 51.8823529,30.2910523 51.8823529,30.6176471 Z" id="icon_share" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>
