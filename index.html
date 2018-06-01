@@ -32,18 +32,39 @@
                 <div class="col-3">
                     <a href="#"><img class="page-header__logo" src="img/pg-banner-shield.png" alt="PortalGuard"></a>
                 </div>
-                <div class="col">
+                <div class="col d-flex justify-content-between">
                     <nav>
                         <ul class="page-header__nav">
                             <li><a class="active" href="#">Home</a></li>
                             <li><a href="#">Our Features</a></li>
-                            <li><a href="#">Integration </a></li>
-                            <li><a href="#">Education </a></li>
+                            <li>
+                                <a class="have-dropdown have-dropdown-open" href="#">Integration</a>
+                                <ul class="dropdown">
+                                    <li>
+                                        <a class="have-submenu have-submenu-open" href="#">Packages</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">Apache</a></li>
+                                            <li><a href="#">Domino</a></li>
+                                            <li><a href="#">Education</a></li>
+                                            <li><a href="#">IIS</a></li>
+                                            <li><a href="#">Office 365</a></li>
+                                            <li><a href="#">Sharepoint</a></li>
+                                            <li><a href="#">Websphere</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Active Directory</a></li>
+                                    <li><a class="have-submenu" href="#">Industry</a></li>
+                                    <li><a href="#">Specialization</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="have-dropdown" href="#">Education </a></li>
                             <li><a href="#">Resources </a></li>
                             <li><a href="#">Company</a></li>
-                            <li class="page-header__nav--contact"><a href="#">Contact Us</a></li>
                         </ul>
                     </nav>
+                    <div class="d-flex align-items-center">
+                        <a class="page-header__nav--contact" href="#">Contact Us</a>
+                    </div>
                 </div>
             </header>
        </div>
