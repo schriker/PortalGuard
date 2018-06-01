@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700" rel="stylesheet">
         <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/owl.carousel.css">
         <link rel="stylesheet" href="css/bootstrap-grid.css">
         <link rel="stylesheet" href="css/style.css">
     </head>
@@ -70,13 +71,17 @@
        </div>
        <div class="container-fluid companies">
            <div class="container">
-               <div class="row align-items-center justify-content-between">
-                    <img class="img-fluid" src="img/companies/pioneer-logo.png" alt="Pioneer">
-                    <img src="img/companies/calabrio.png" alt="Calabrio">
-                    <img src="img/companies/maverik-center.png" alt="Maverik">
-                    <img src="img/companies/mapfre.png" alt="Mapfre">
-                    <img src="img/companies/scsu.png" alt="Scsu">
-                    <img src="img/companies/tj-maxx.png" alt="TJ-Maxx">
+               <div class="row">
+                   <div class="owl-carousel owl-carousel-logos d-flex align-items-center justify-content-between">
+                       <div><img src="img/companies/pioneer-logo.png" alt="Pioneer"></div>
+                       <div><img src="img/companies/calabrio.png" alt="Calabrio"></div>
+                       <div><img src="img/companies/maverik-center.png" alt="Maverik"></div>
+                       <div><img src="img/companies/mapfre.png" alt="Mapfre"></div>
+                       <div><img src="img/companies/scsu.png" alt="Scsu"></div>
+                       <div><img src="img/companies/tj-maxx.png" alt="TJ-Maxx"></div>
+                       <div><img src="img/companies/pioneer-logo.png" alt="Pioneer"></div>
+                       <div><img src="img/companies/calabrio.png" alt="Calabrio"></div>
+                   </div>
                </div>
            </div>
        </div>
@@ -86,79 +91,230 @@
                     <h2 class="after-center">What do our Customers say?</h2>
                </div>
            </div>
-           <div class="row customers-box align-items-center">
-                <div class="col-2">
-                    <div class="customer">
-                        <img class="customer__avatar" src="img/customer-avatar.png" alt="Customer">
-                        <img class="customer__logo" src="img/customer-logo.png" alt="Customer Company">
+           <div class="row customers-box">
+                <div class="owl-carousel customer-carousel">
+                    <div class="d-flex align-items-center">
+                            <div class="col-2">
+                                    <div class="customer">
+                                        <img class="customer__avatar" src="img/customer-avatar.png" alt="Customer">
+                                        <img class="customer__logo" src="img/customer-logo.png" alt="Customer Company">
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="d-flex flex-column customer__info">
+                                        <span class="customer__info--name">Bert A.</span>
+                                        <span class="customer__info--note">CIO Higher Education, 51-200 employees</span>
+                                        <ul>
+                                            <li><b>Used the Software for:</b> 1-2 years</li>
+                                            <li><b>Source:</b> Capterra</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="d-flex flex-column text-center">
+                                        <span class="customer__rate">5/5</span>
+                                        <ul class="customer__stars">
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li class="customer__stars--grey"></li>
+                                        </ul>
+                                        <span>Overall</span>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="customer__rating">
+                                        <span>Easy of use:</span>
+                                        <ul class="customer__stars">
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li class="customer__stars--grey"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="customer__rating">
+                                        <span>Features & Functionality:</span>
+                                        <ul class="customer__stars">
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li class="customer__stars--grey"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="customer__rating">
+                                        <span>Customer Support:</span>
+                                        <ul class="customer__stars">
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li class="customer__stars--grey"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="customer__rating">
+                                        <span>Value for Money:</span>
+                                        <ul class="customer__stars">
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li class="customer__stars--grey"></li>
+                                        </ul>
+                                    </div>
+                                </div>
                     </div>
-                </div>
-                <div class="col-4">
-                    <div class="d-flex flex-column customer__info">
-                        <span class="customer__info--name">Bert A.</span>
-                        <span class="customer__info--note">CIO Higher Education, 51-200 employees</span>
-                        <ul>
-                            <li><b>Used the Software for:</b> 1-2 years</li>
-                            <li><b>Source:</b> Capterra</li>
-                        </ul>
+                    <div class="d-flex align-items-center">
+                            <div class="col-2">
+                                    <div class="customer">
+                                        <img class="customer__avatar" src="img/customer-avatar.png" alt="Customer">
+                                        <img class="customer__logo" src="img/customer-logo.png" alt="Customer Company">
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="d-flex flex-column customer__info">
+                                        <span class="customer__info--name">Bert A.</span>
+                                        <span class="customer__info--note">CIO Higher Education, 51-200 employees</span>
+                                        <ul>
+                                            <li><b>Used the Software for:</b> 1-2 years</li>
+                                            <li><b>Source:</b> Capterra</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="d-flex flex-column text-center">
+                                        <span class="customer__rate">5/5</span>
+                                        <ul class="customer__stars">
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li class="customer__stars--grey"></li>
+                                        </ul>
+                                        <span>Overall</span>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="customer__rating">
+                                        <span>Easy of use:</span>
+                                        <ul class="customer__stars">
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li class="customer__stars--grey"></li>
+                                            <li class="customer__stars--grey"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="customer__rating">
+                                        <span>Features & Functionality:</span>
+                                        <ul class="customer__stars">
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li class="customer__stars--grey"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="customer__rating">
+                                        <span>Customer Support:</span>
+                                        <ul class="customer__stars">
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li class="customer__stars--grey"></li>
+                                            <li class="customer__stars--grey"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="customer__rating">
+                                        <span>Value for Money:</span>
+                                        <ul class="customer__stars">
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li class="customer__stars--grey"></li>
+                                        </ul>
+                                    </div>
+                                </div>
                     </div>
-                </div>
-                <div class="col-2">
-                    <div class="d-flex flex-column text-center">
-                        <span class="customer__rate">5/5</span>
-                        <ul class="customer__stars">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li class="customer__stars--grey"></li>
-                        </ul>
-                        <span>Overall</span>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="customer__rating">
-                        <span>Easy of use:</span>
-                        <ul class="customer__stars">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li class="customer__stars--grey"></li>
-                        </ul>
-                    </div>
-                    <div class="customer__rating">
-                        <span>Features & Functionality:</span>
-                        <ul class="customer__stars">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li class="customer__stars--grey"></li>
-                        </ul>
-                    </div>
-                    <div class="customer__rating">
-                        <span>Customer Support:</span>
-                        <ul class="customer__stars">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li class="customer__stars--grey"></li>
-                        </ul>
-                    </div>
-                    <div class="customer__rating">
-                        <span>Value for Money:</span>
-                        <ul class="customer__stars">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li class="customer__stars--grey"></li>
-                        </ul>
+                    <div class="d-flex align-items-center">
+                            <div class="col-2">
+                                    <div class="customer">
+                                        <img class="customer__avatar" src="img/customer-avatar.png" alt="Customer">
+                                        <img class="customer__logo" src="img/customer-logo.png" alt="Customer Company">
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="d-flex flex-column customer__info">
+                                        <span class="customer__info--name">Bert A.</span>
+                                        <span class="customer__info--note">CIO Higher Education, 51-200 employees</span>
+                                        <ul>
+                                            <li><b>Used the Software for:</b> 1-2 years</li>
+                                            <li><b>Source:</b> Capterra</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="d-flex flex-column text-center">
+                                        <span class="customer__rate">5/5</span>
+                                        <ul class="customer__stars">
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li class="customer__stars--grey"></li>
+                                        </ul>
+                                        <span>Overall</span>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="customer__rating">
+                                        <span>Easy of use:</span>
+                                        <ul class="customer__stars">
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li class="customer__stars--grey"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="customer__rating">
+                                        <span>Features & Functionality:</span>
+                                        <ul class="customer__stars">
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li class="customer__stars--grey"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="customer__rating">
+                                        <span>Customer Support:</span>
+                                        <ul class="customer__stars">
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li class="customer__stars--grey"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="customer__rating">
+                                        <span>Value for Money:</span>
+                                        <ul class="customer__stars">
+                                            <li></li>
+                                            <li></li>
+                                            <li class="customer__stars--grey"></li>
+                                            <li class="customer__stars--grey"></li>
+                                            <li class="customer__stars--grey"></li>
+                                        </ul>
+                                    </div>
+                                </div>
                     </div>
                 </div>
            </div>
+           <div class="row dots-customer"></div>
            <div class="row content-row justify-content-center">
                <div class="col-6 text-center">
                    <h2 class="after-center">Complete Software Solution for Identity Management</h2>
@@ -216,12 +372,21 @@
        </div>
        <div class="container-fluid">
            <div class="row content">
-               <div class="col-6">
-                   <div class="d-flex">
-                        <img src="img/laptop-img.jpg" alt="Carousel">
-                   </div>
+               <div class="col-5">
+                    <div class="row owl-carousel works-carousel">
+                        <div>
+                            <img class="img-fluid" src="img/laptop-img.jpg" alt="Carousel">
+                        </div>
+                        <div>
+                            <img class="img-fluid" src="img/laptop-img.jpg" alt="Carousel">
+                        </div>
+                        <div>
+                            <img class="img-fluid" src="img/laptop-img.jpg" alt="Carousel">
+                        </div>
+                    </div>
+                    <div class="row dots-works"></div>
                </div>
-               <div class="col-4">
+               <div class="col-4 offset-1">
                    <div class="works-item">
                        <img  src="svg/sync-icon.svg" alt="Sync">
                         <div class="works-item__text">
@@ -343,6 +508,8 @@
                </footer>
            </div>
        </div>
-        <script src="" async defer></script>
+       <script src="js/jquery-3.3.1.min.js"></script>
+       <script src="js/owl.carousel.js"></script>
+       <script src="js/main.js"></script>
     </body>
 </html>
