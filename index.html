@@ -4,7 +4,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>PortalGuard</title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
         <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700" rel="stylesheet">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/owl.carousel.css">
@@ -29,19 +29,19 @@
        </div>
        <div class="container">
             <header class="row page-header align-items-center">
-                <div class="col-3">
-                    <a href="#"><img class="page-header__logo" src="img/pg-banner-shield.png" alt="PortalGuard"></a>
+                <div class="col-lg-3 col-5 offset-xs-1 col-md-12 medium-center-text">
+                    <a href="#"><img class="page-header__logo img-fluid" src="img/pg-banner-shield.png" alt="PortalGuard"></a>
                 </div>
-                <div class="col d-flex justify-content-between">
-                    <nav>
+                <div class="col-lg col-md-12 d-flex justify-content-between">
+                    <nav class="hide-mobile">
                         <ul class="page-header__nav">
                             <li><a class="active" href="#">Home</a></li>
                             <li><a href="#">Our Features</a></li>
-                            <li>
-                                <a class="have-dropdown have-dropdown-open" href="#">Integration</a>
+                            <li class="have-dropdown">
+                                <a href="#">Integration</a>
                                 <ul class="dropdown">
-                                    <li>
-                                        <a class="have-submenu have-submenu-open" href="#">Packages</a>
+                                    <li class="have-submenu">
+                                        <a href="#">Packages</a>
                                         <ul class="submenu">
                                             <li><a href="#">Apache</a></li>
                                             <li><a href="#">Domino</a></li>
@@ -53,16 +53,27 @@
                                         </ul>
                                     </li>
                                     <li><a href="#">Active Directory</a></li>
-                                    <li><a class="have-submenu" href="#">Industry</a></li>
+                                    <li class="have-submenu">
+                                        <a href="#">Industry</a>
+                                        <ul class="submenu">
+                                            <li><a href="#">Apache</a></li>
+                                            <li><a href="#">Domino</a></li>
+                                            <li><a href="#">Education</a></li>
+                                            <li><a href="#">IIS</a></li>
+                                            <li><a href="#">Office 365</a></li>
+                                            <li><a href="#">Sharepoint</a></li>
+                                            <li><a href="#">Websphere</a></li>
+                                        </ul>
+                                    </li>
                                     <li><a href="#">Specialization</a></li>
                                 </ul>
                             </li>
-                            <li><a class="have-dropdown" href="#">Education </a></li>
+                            <li><a href="#">Education </a></li>
                             <li><a href="#">Resources </a></li>
                             <li><a href="#">Company</a></li>
                         </ul>
                     </nav>
-                    <div class="d-flex align-items-center">
+                    <div class="d-flex align-items-center hide-mobile">
                         <a class="page-header__nav--contact" href="#">Contact Us</a>
                     </div>
                 </div>
@@ -71,7 +82,7 @@
        <div class="container-fluid hero-img">
            <div class="container">
                <div class="row justify-content-center">
-                   <div class="col-8 text-center">
+                   <div class="col-lg-9 col-md-12 col-10 text-center">
                         <h1>
                             <span class="green-text">One password.</span> Self-service.<br /> 
                             Compliance. Integration.
@@ -79,12 +90,12 @@
                    </div>
                 </div>
                 <div class="row justify-content-center">
-                    <div class="col-5 text-center">
+                    <div class="col-lg-6 col-10 text-center">
                         <p>Connecting thousands of user identities to all the apps they need is messy. PortalGuard software helps organizations with Identity Management solutions such as single sign on, self-password reset, two factor authentication and more.</p>
                    </div>
                 </div>
                 <div class="row justify-content-center">
-                    <div class="col-4">
+                    <div class="col-lg-4 col-md-6 col-11 d-flex justify-content-around">
                         <a class="btn btn-white-border" href="#">For Schools</a><a class="btn btn-white-border float-right" href="#">Demo Request</a>
                     </div>
                 </div>               
@@ -114,15 +125,15 @@
            </div>
            <div class="row customers-box">
                 <div class="owl-carousel customer-carousel">
-                    <div class="d-flex align-items-center">
-                            <div class="col-2">
+                    <div class="d-flex flex-wrap align-items-center">
+                            <div class="col-md-12 col-lg-2">
                                     <div class="customer">
                                         <img class="customer__avatar" src="img/customer-avatar.png" alt="Customer">
                                         <img class="customer__logo" src="img/customer-logo.png" alt="Customer Company">
                                     </div>
                                 </div>
-                                <div class="col-4">
-                                    <div class="d-flex flex-column customer__info">
+                                <div class="col-md-12 col-lg-4">
+                                    <div class="d-flex flex-column customer__info medium-center-text mobile-center-text ">
                                         <span class="customer__info--name">Bert A.</span>
                                         <span class="customer__info--note">CIO Higher Education, 51-200 employees</span>
                                         <ul>
@@ -131,7 +142,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-2">
+                                <div class="col-md-12 col-lg-2">
                                     <div class="d-flex flex-column text-center">
                                         <span class="customer__rate">5/5</span>
                                         <ul class="customer__stars">
@@ -144,7 +155,7 @@
                                         <span>Overall</span>
                                     </div>
                                 </div>
-                                <div class="col-4">
+                                <div class="col-md-12 col-lg-4 hide-mobile">
                                     <div class="customer__rating">
                                         <span>Easy of use:</span>
                                         <ul class="customer__stars">
@@ -182,152 +193,6 @@
                                             <li></li>
                                             <li></li>
                                             <li></li>
-                                            <li class="customer__stars--grey"></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                    </div>
-                    <div class="d-flex align-items-center">
-                            <div class="col-2">
-                                    <div class="customer">
-                                        <img class="customer__avatar" src="img/customer-avatar.png" alt="Customer">
-                                        <img class="customer__logo" src="img/customer-logo.png" alt="Customer Company">
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="d-flex flex-column customer__info">
-                                        <span class="customer__info--name">Bert A.</span>
-                                        <span class="customer__info--note">CIO Higher Education, 51-200 employees</span>
-                                        <ul>
-                                            <li><b>Used the Software for:</b> 1-2 years</li>
-                                            <li><b>Source:</b> Capterra</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-2">
-                                    <div class="d-flex flex-column text-center">
-                                        <span class="customer__rate">5/5</span>
-                                        <ul class="customer__stars">
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li class="customer__stars--grey"></li>
-                                        </ul>
-                                        <span>Overall</span>
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="customer__rating">
-                                        <span>Easy of use:</span>
-                                        <ul class="customer__stars">
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li class="customer__stars--grey"></li>
-                                            <li class="customer__stars--grey"></li>
-                                        </ul>
-                                    </div>
-                                    <div class="customer__rating">
-                                        <span>Features & Functionality:</span>
-                                        <ul class="customer__stars">
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li class="customer__stars--grey"></li>
-                                        </ul>
-                                    </div>
-                                    <div class="customer__rating">
-                                        <span>Customer Support:</span>
-                                        <ul class="customer__stars">
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li class="customer__stars--grey"></li>
-                                            <li class="customer__stars--grey"></li>
-                                        </ul>
-                                    </div>
-                                    <div class="customer__rating">
-                                        <span>Value for Money:</span>
-                                        <ul class="customer__stars">
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li class="customer__stars--grey"></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                    </div>
-                    <div class="d-flex align-items-center">
-                            <div class="col-2">
-                                    <div class="customer">
-                                        <img class="customer__avatar" src="img/customer-avatar.png" alt="Customer">
-                                        <img class="customer__logo" src="img/customer-logo.png" alt="Customer Company">
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="d-flex flex-column customer__info">
-                                        <span class="customer__info--name">Bert A.</span>
-                                        <span class="customer__info--note">CIO Higher Education, 51-200 employees</span>
-                                        <ul>
-                                            <li><b>Used the Software for:</b> 1-2 years</li>
-                                            <li><b>Source:</b> Capterra</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-2">
-                                    <div class="d-flex flex-column text-center">
-                                        <span class="customer__rate">5/5</span>
-                                        <ul class="customer__stars">
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li class="customer__stars--grey"></li>
-                                        </ul>
-                                        <span>Overall</span>
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="customer__rating">
-                                        <span>Easy of use:</span>
-                                        <ul class="customer__stars">
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li class="customer__stars--grey"></li>
-                                        </ul>
-                                    </div>
-                                    <div class="customer__rating">
-                                        <span>Features & Functionality:</span>
-                                        <ul class="customer__stars">
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li class="customer__stars--grey"></li>
-                                        </ul>
-                                    </div>
-                                    <div class="customer__rating">
-                                        <span>Customer Support:</span>
-                                        <ul class="customer__stars">
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li class="customer__stars--grey"></li>
-                                        </ul>
-                                    </div>
-                                    <div class="customer__rating">
-                                        <span>Value for Money:</span>
-                                        <ul class="customer__stars">
-                                            <li></li>
-                                            <li></li>
-                                            <li class="customer__stars--grey"></li>
-                                            <li class="customer__stars--grey"></li>
                                             <li class="customer__stars--grey"></li>
                                         </ul>
                                     </div>
@@ -337,36 +202,36 @@
            </div>
            <div class="row dots-customer"></div>
            <div class="row content-row justify-content-center">
-               <div class="col-6 text-center">
+               <div class="col-lg-6 col-md-8 text-center">
                    <h2 class="after-center">Complete Software Solution for Identity Management</h2>
                    <p>Users use cloud apps. PortalGuard is an on premise, no client-side extension software. Since 2000 organizations in industries such as education, healthcare, finance and law with users from 10 to 15 000 have loved it’s usability and security.</p>
                </div>
            </div>
            <div class="row content-row justify-content-center">
-               <div class="col-2 text-center">
-                   <img src="svg/integrates.svg" alt="Integrates With Anything">
+               <div class="col-lg-2 col-6 text-center">
+                   <img class="img-fluid" src="svg/integrates.svg" alt="Integrates With Anything">
                    <h3>Integrates With Anything</h3>
                </div>
-               <div class="col-2 text-center">
-                   <img src="svg/users.svg" alt="Integrates With Anything">
+               <div class="col-lg-2 col-6 text-center">
+                   <img class="img-fluid" src="svg/users.svg" alt="Integrates With Anything">
                    <h3>Millions of Daily Users</h3>
                 </div>
-               <div class="col-2 text-center">
-                   <img src="svg/stars.svg" alt="Integrates With Anything">
+               <div class="col-lg-2 col-6 text-center">
+                   <img class="img-fluid" src="svg/stars.svg" alt="Integrates With Anything">
                    <h3>5 Star Industry Rating</h3>
                 </div>
-               <div class="col-2 text-center">
-                   <img src="svg/support.svg" alt="Integrates With Anything">
+               <div class="col-lg-2 col-6 text-center">
+                   <img class="img-fluid" src="svg/support.svg" alt="Integrates With Anything">
                    <h3>Anytime 24/7 Support</h3>
                 </div>
            </div>
-           <div class="row content-row fixed-price">
-                <div class="col-5 offset-1">
+           <div class="row content-row fixed-price j-center">
+                <div class="col-lg-6 col-md-8 offset-lg-1 medium-center-text mobile-center-text">
                     <h2>Unlimited Users. One Fixed Price.</h2>
                 </div>
             </div>
             <div class="row content-row">
-                <div class="col-5 offset-1 d-flex">
+                <div class="col-lg-5 col-md-12 offset-lg-1 d-flex j-center">
                     <div class="fixed-price__box">
                         <span>20k</span>
                         <p>first year</p>
@@ -376,24 +241,24 @@
                             <p>per year after</p>
                     </div>
                 </div>
-                <div class="col-6 fixed-price__images d-flex justify-content-between">
+                <div class="col-6 fixed-price__images d-flex justify-content-between hide-lrg">
                     <div class="d-flex flex-column justify-content-around">
-                        <img width="227px" class="img-fluid" src="img/microsoft-hyper-v.png" alt="Microsoft Hyper">
-                        <img width="123px" class="img-fluid" src="img/vmware.png" alt="VMWare">
+                        <img width="227px" class="img-fluid hide-mobile" src="img/microsoft-hyper-v.png" alt="Microsoft Hyper">
+                        <img width="123px" class="img-fluid hide-mobile" src="img/vmware.png" alt="VMWare">
                     </div>
                     <img class="absolute-img img-fluid" width="291px" src="img/serwer.png" alt="Serwer">
                 </div>
             </div>
            <div class="row content-row justify-content-center">
-                <div class="col-5 text-center">
+                <div class="col-lg-6 col-md-8 text-center">
                     <h2 class="after-center">How it works?</h2>
                     <p>Your organization gets it own branded portal, which gives users 1 login, after which they can access all the apps integrated to your portal.</p>
                 </div>
             </div>
        </div>
        <div class="container-fluid">
-           <div class="row content">
-               <div class="col-5">
+           <div class="row content j-center">
+               <div class="col-5 hide-medium hide-mobile">
                     <div class="row owl-carousel works-carousel">
                         <div>
                             <img class="img-fluid" src="img/laptop-img.jpg" alt="Carousel">
@@ -407,22 +272,22 @@
                     </div>
                     <div class="row dots-works"></div>
                </div>
-               <div class="col-4 offset-1">
-                   <div class="works-item">
+               <div class="col-lg-4 offset-lg-1 col-10">
+                   <div class="works-item flex-column">
                        <img  src="svg/sync-icon.svg" alt="Sync">
                         <div class="works-item__text">
                             <h3>One Password</h3>
                             <p>Single Sign onto any app with just one click. No more time lost!</p>
                         </div>
                    </div>
-                   <div class="works-item">
+                   <div class="works-item flex-column">
                         <img  src="svg/security.svg" alt="Security">
                          <div class="works-item__text">
                              <h3>Self-Service</h3>
                              <p>Users can reset their own passwords. Keeping I.T. happy with decreased helpdesk support.</p>
                          </div>
                     </div>
-                    <div class="works-item">
+                    <div class="works-item flex-column">
                             <img  src="svg/shared-icon.svg" alt="Shared">
                              <div class="works-item__text">
                                  <h3>Compliance</h3>
@@ -439,12 +304,12 @@
            </div>
        </div>
        <div class="container">
-           <div class="row content fixed-price">
-               <div class="col-4 offset-1">
+           <div class="row content fixed-price j-center">
+               <div class="col-lg-4 offset-lg-1 col-md-8 medium-center-text mobile-center-text">
                     <h2>Integrates with ANY app your school uses.</h2>
                     <p>You have unique requirements. Our team will integrate any app you need to use in your eco-system. Just ask.</p>
                </div>
-               <div class="col-6 offset-1">
+               <div class="col-6 offset-lg-1">
                    <div class="video-container">
                         <a href="#"><img class="video-container__play" src="svg/play-btn.svg" alt=""></a>                     
                         <img class="img-fluid" width="610px" src="img/play-video-bg.png" alt="Video">
@@ -453,25 +318,25 @@
            </div>
        </div>
        <div class="container-fluid">
-           <div class="row content">
-               <div class="col-6 text-right contact-img">
+           <div class="row content j-center">
+               <div class="col-6 text-right contact-img hide-lrg">
                    <img class="img-fluid" width="469px" src="img/business-people.png" alt="Contact Image">
                </div>
-               <div class="col-6 grey-bg">
+               <div class="col-lg-6 col-10 grey-bg medium-center-text mobile-center-text">
                    <h2>Email, call or live chat - we’re always here to help.</h2>
                    <p>Hours are 8:00am to 6:00pm ET. If you don't get a response within a minute - double check the number. After hours please email us below.</p>
                    <h3>Call us now at <span class="green-text">(603) 547-1200</span></h3>
                    <div class="contact-form-bg">
                        <form class="contact-form" action="">
                            <div class="row">
-                                <div class="col-5 contact-input"><input required placeholder="Name" type="text" name="name" id="name"></div>
-                                <div class="col-5 offset-1 contact-input"><input required placeholder="Email Adress" type="text" name="email" id="email"></div>
-                                <div class="col-5 contact-input"><input required placeholder="Phone Number" type="text" name="phone" id="phone"></div>
-                                <div class="col-5 offset-1 contact-input"><input required placeholder="Topic" type="text" name="topic" id="topic"></div>
-                                <div class="col-11 contact-input"><input required placeholder="What are you looking for?" type="text" name="msg" id="msg"></div>
+                                <div class="col-12 col-xl-5 contact-input"><input required placeholder="Name" type="text" name="name" id="name"></div>
+                                <div class="col-12 col-xl-5 offset-xl-1 contact-input"><input required placeholder="Email Adress" type="text" name="email" id="email"></div>
+                                <div class="col-12 col-xl-5 contact-input"><input required placeholder="Phone Number" type="text" name="phone" id="phone"></div>
+                                <div class="col-12 col-xl-5 offset-xl-1 contact-input"><input required placeholder="Topic" type="text" name="topic" id="topic"></div>
+                                <div class="col-xl-11 col-12 contact-input"><input required placeholder="What are you looking for?" type="text" name="msg" id="msg"></div>
                            </div>
-                           <div class="row">
-                                <div class="col-3 contact-submit">
+                           <div class="row j-center">
+                                <div class="col-lg-3 col-6  contact-submit">
                                     <input type="submit" value="Submit">
                                 </div>
                            </div>
@@ -483,7 +348,7 @@
        <div class="conatiner-fluid page-footer">
            <div class="container">
                <footer class="row">
-                    <div class="col">
+                    <div class="col hide-mobile">
                         <h4>Features</h4>
                         <ul>
                             <li><a href="#">Single Sign-On</a></li>
@@ -493,7 +358,7 @@
                             <li><a href="#">Password Synchronization</a></li>
                         </ul>
                     </div>
-                    <div class="col">
+                    <div class="col hide-mobile">
                         <h4>Resources</h4>
                         <ul>
                             <li><a href="#">Resource Center</a></li>
@@ -504,7 +369,7 @@
                             <li><a href="#">Blog</a></li>
                         </ul>
                     </div>
-                    <div class="col">
+                    <div class="col hide-mobile">
                         <h4>Company</h4>
                         <ul>
                             <li><a href="#">Contact Us</a></li>
@@ -513,8 +378,8 @@
                             <li>Phone: (603) 547-1200</li>
                         </ul>
                     </div>
-                    <div class="col">
-                            <ul class="page-footer__social">
+                    <div class="col mobile-center-text">
+                            <ul class="page-footer__social j-center">
                                 <li><a href="#"><img src="svg/facebook.svg" alt="facebook" /></a></li>
                                 <li><a href="#"><img src="svg/linkedin.svg" alt="linkedin"></a></li>
                                 <li><a href="#"><img src="svg/twitter.svg" alt="twitter"></a></li>
