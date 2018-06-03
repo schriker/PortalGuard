@@ -5,15 +5,13 @@ $(document).ready(function(){
     }
     
     $(".have-dropdown").on("click", function() {
-
+        $(".have-dropdown").removeClass("have-dropdown-open");
         var $this = $(this);
-        var $dropdown = $(this).children(".dropdown");
-        var $win = $(window);
-
         $this.addClass("have-dropdown-open");
     });
 
     $(".have-submenu").on("click", function(){
+        $(".have-submenu").removeClass("have-submenu-open");        
         $(this).addClass("have-submenu-open");
     });
 
