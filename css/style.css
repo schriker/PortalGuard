@@ -43,7 +43,7 @@ input[type="submit"] {
     font-size: 0.8rem;
     color: #17C671;
     border: 2px solid #17C671;
-    padding: 13px 16px;
+    padding: 13px 25px;
     border-radius: 4px;
     transition: all 0.2s ease;
 }
@@ -582,6 +582,66 @@ nav {
     margin: 0;
 }
 
+.mobile-menu {  
+    display: none;
+}
+
+.mobile-menu-content {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.hamburger-btn {
+    display: block;
+    position: relative;
+    margin: 0 15px 0 auto;
+    width: 26px;
+    height: 22px;
+}
+
+.hamburger-btn:hover {
+    cursor: pointer;
+}
+
+.hamburger-btn span{
+    position: absolute;
+    display: block;
+    right: 0;
+    background-color: #17C671;
+    width: 26px;
+    height: 3px;
+    margin-bottom: 4px;
+}
+
+.hamburger-btn span:nth-child(1) {
+    top: 0px;
+}
+
+.hamburger-btn span:nth-child(2) {
+    top: 7px;
+    opacity: 1;
+}
+
+.hamburger-btn span:nth-child(3) {
+    bottom: 0px;
+}
+
+.hamburger-btn-open span:nth-child(1) {
+    transform: rotate(-45deg);
+    top: 10px;
+}
+
+.hamburger-btn-open span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger-btn-open span:nth-child(3) {
+    top: 10px;
+    transform: rotate(45deg);
+}
 
 @media (max-width: 425px) {
 
@@ -607,6 +667,27 @@ nav {
     }
 
     .companies {
+        padding: 0;
+        margin: 0;
+    }
+
+    .companies img {
+        width: 80px !important;
+    }
+    
+    .fixed-price__box {
+        padding-bottom: 0;
+    }
+
+    .fixed-price__box span {
+        padding: 0 0 20px 0;
+    }
+
+    .page-footer {
+        padding: 35px 0;
+    }
+
+    .contact-submit {
         margin: 0;
     }
 
@@ -656,6 +737,34 @@ nav {
 
     .mobile-center-text h2::after {
         margin: 25px auto 0 auto;
+    }
+
+    .mobile-menu {
+        display: flex;
+    }
+
+    .top-bar__menu {
+        justify-content: space-around;
+    }
+
+    .top-bar__menu li {
+        margin: 0;
+    }
+
+    .page-header__logo {
+        margin: 15px auto 15px 15px;
+    }
+
+    .page-header__nav > ul {
+        width: 100%;
+    }
+
+    .dropdown a, .submenu a {
+        padding: 15px 20px 0 20px !important;
+    }
+
+    .page-header__nav a {
+        padding: 12px 0;
     }
 
     .hide-mobile {

@@ -11,7 +11,12 @@ $(document).ready(function(){
 
     $(".have-submenu").on("click", function(){
         $(this).addClass("have-submenu-open");
-    })
+    });
+
+    $(".hamburger-btn").on("click", function(){
+        $(".mobile-menu-content").toggleClass("show");
+        $(this).toggleClass("hamburger-btn-open");
+    });
 
     $(".owl-carousel-logos").owlCarousel({
         loop: true,
@@ -19,7 +24,7 @@ $(document).ready(function(){
         dots: false,
         responsive : {
             0 : {
-                items: 2
+                items: 3
             },
             480 : {
                 items: 3
