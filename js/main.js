@@ -23,7 +23,7 @@ $(document).ready(function(){
     });
 
     $(".owl-carousel-logos").owlCarousel({
-        loop: true,
+        loop: false,
         autoplay: true,
         dots: false,
         responsive : {
