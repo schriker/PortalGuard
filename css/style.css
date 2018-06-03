@@ -437,7 +437,7 @@ nav {
 }
 
 .works-item {
-    margin: 0 0 40px 0; 
+    margin: 0 0 50px 0; 
 }
 
 .works-item img {
@@ -452,7 +452,7 @@ nav {
 }
 
 .works-item__text p {
-    padding: 10px 0;
+    padding: 10px 15px 0 10px;
 }
 
 .video-container {
