@@ -23,6 +23,10 @@ p {
     margin: 0;
 }
 
+p.quote {
+    color: #212529 !important;
+}
+
 ul {
     margin: 0;
     padding: 0;
@@ -61,6 +65,7 @@ input[type="text"] {
     padding: 10px 0;
     border-bottom: 2px solid #C1C1C3;
     outline: none;
+    background: transparent;
 }
 
 input[type="text"]:focus {
@@ -261,9 +266,17 @@ nav {
 
 .hero-img {
     padding: 150px 0;
-    background: url(../img/hero_img.png) no-repeat center center;
-    background-size: cover;
     color: #FFFFFF;
+}
+
+.hero-img_home {
+    background: url(../img/hero_img.jpg) no-repeat center center;   
+    background-size: cover; 
+}
+
+.hero-img_education {
+    background: url(../img/hero_education_img.jpg) no-repeat center center;  
+    background-size: cover;  
 }
 
 .hero-img p {
@@ -365,6 +378,29 @@ nav {
     margin: 50px 0;
 }
 
+.content-row-studies {
+    margin: 0 0 0 60px;
+}
+
+.content-row-studies input[type="text"] {
+    width: 90%;
+}
+
+.proven-author {
+    border-top: 1px solid #EAEAEA;
+    border-left: 1px solid #EAEAEA;
+    border-bottom: 1px solid #EAEAEA;
+    border-radius: 10px 0 0 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0 30px 60px 0 rgba(192,192,192,0.22);
+    margin: 50px 0 0 0;
+    padding: 0 60px;
+}
+
+.content a {
+    color: #17C671
+}
+
 .content h2 {
     color: #212529;
     font-size: 2rem;
@@ -393,7 +429,7 @@ nav {
     color: #838383;
     font-size: 1rem;	
     line-height: 33px;
-    padding: 25px 0;
+    margin: 25px 0;
 }
 
 .fixed-price {
@@ -452,7 +488,8 @@ nav {
 }
 
 .works-item__text p {
-    padding: 10px 15px 0 10px;
+    margin: 0;
+    padding: 10px 15px 0 0 !important;
 }
 
 .video-container {
@@ -475,6 +512,11 @@ nav {
     background-color: #F6F6F6;
     border-radius: 10px 0 0 0;
     padding: 85px 105px 50px 105px;
+}
+
+.proven-bg {
+    padding: 20px 0px 80px 0;
+    background-color: #F6F6F6;    
 }
 
 .contact-form-bg {
@@ -683,10 +725,6 @@ nav {
         padding: 0 0 20px 0;
     }
 
-    .page-footer {
-        padding: 35px 0;
-    }
-
     .contact-submit {
         margin: 0;
     }
@@ -721,14 +759,24 @@ nav {
 
 }
 
-@media (max-width: 610px) {
-
-}
-
 @media (max-width: 767px) {
 
     html {
         font-size: 14px;
+    }
+
+    .content-row-studies {
+        margin: 0;
+    }
+
+    .proven-author {
+        border-radius: 0;
+        border-left: 0;
+        padding: 0 30px;
+    }
+
+    .works-item__text p {
+        padding-right: 0 !important;
     }
 
     .mobile-center-text {
@@ -737,6 +785,14 @@ nav {
 
     .mobile-center-text h2::after {
         margin: 25px auto 0 auto;
+    }
+
+    .subscribe {
+        justify-content: center;
+    }
+
+    .content-row-studies {
+        justify-content: center;
     }
 
     .mobile-menu {
@@ -765,6 +821,10 @@ nav {
 
     .page-header__nav a {
         padding: 12px 0;
+    }
+
+    .page-footer {
+        padding: 35px 0;
     }
 
     .hide-mobile {

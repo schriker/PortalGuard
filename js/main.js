@@ -1,5 +1,3 @@
-
-
 $(document).ready(function(){
 
     function aosInit(event) {
@@ -49,6 +47,13 @@ $(document).ready(function(){
         loop: true,
         margin: 100,
         dotsContainer: '.dots-customer'
+    });
+
+    $(".proven-carousel").owlCarousel({
+        items: 1,
+        loop: true,
+        margin: 10,
+        dotsContainer: '.dots-proven'
     });
 
     $(".works-carousel").owlCarousel({
