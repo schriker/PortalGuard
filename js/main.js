@@ -1,5 +1,11 @@
+
+
 $(document).ready(function(){
 
+    function aosInit(event) {
+        AOS.init();
+    }
+    
     $(".have-dropdown").on("click", function() {
 
         var $this = $(this);
@@ -49,7 +55,8 @@ $(document).ready(function(){
         items: 1,
         loop: true,
         margin: 10,
-        dotsContainer: '.dots-works'
+        dotsContainer: '.dots-works',
+        onInitialized: aosInit
     });
 
     $(".owl-item").addClass("col");
