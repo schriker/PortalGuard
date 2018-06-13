@@ -884,12 +884,12 @@ nav {
     }
 }
 
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
         .absolute-img {
             width: 200px;
         }
     }
-}
+} */
 
 @media (min-width: 768px) and (max-width: 991px) {
 
