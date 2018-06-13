@@ -469,7 +469,7 @@ nav {
 .absolute-img {
     position: absolute;
     right: 0;
-    top: -100px;
+    top: -50px;
 }
 
 .works-item {
@@ -881,6 +881,13 @@ nav {
 
     .works-item img {
         margin: 0;
+    }
+}
+
+@media (max-width: 1200px) {
+        .absolute-img {
+            width: 200px;
+        }
     }
 }
 
